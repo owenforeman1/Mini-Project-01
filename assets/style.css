@@ -1,1 +1,26 @@
-header {background-color: navy;}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    
+  }
+  
+  
+  body {
+    background-color: lightblue;
+  }
+
+  header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+  }
+  li {
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    text-align: right;
+    color: navajowhite;
+  }
