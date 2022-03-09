@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="./assets/style.css"/>
-        <title>Mini Project 01</title>
-    </head>
-    <body>
-        <header class="header"></header>
-    </body>
-
-
-
-
-
-
-
-
-
+<head>
+    <title>Visitor's Contact Form</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Visitor's Contact Form</h1>
+    </header>
+    <section>
+        <img src="./images/Contact_CustomerService_557x280.jpg"
+        alt="baby with phone"/>
+        <p>Baby will be with you shortly</p>
+    </section>
+    <h3>Contact us</h3>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+    <footer>© 2020 My Contact Info Website</footer>
+</body>
 </html>
